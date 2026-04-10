@@ -1,0 +1,29 @@
+// Header styles
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+
+  .topbar {
+    background-color: var(--accent-color);
+    // padding: 10px 0;
+    font-size: 0.85rem;
+
+    i {
+      margin-right: 8px;
+      color: var(--white-color);
+
+      a {
+        color: var(--white-color);
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: var(--white-color);
+        }
+      }
+    }
+
+    span {
+      color: var(--white-color);
+    }
+  }
+}

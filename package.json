@@ -1,0 +1,36 @@
+{
+  "name": "bizland-react",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "glightbox": "^3.3.0",
+    "imagesloaded": "^5.0.0",
+    "isotope-layout": "^3.0.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^6.26.0",
+    "swiper": "^11.1.14",
+    "waypoints": "^4.0.1"
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.3",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.8"
+  }
+}
