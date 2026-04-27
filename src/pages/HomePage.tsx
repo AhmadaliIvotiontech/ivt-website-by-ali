@@ -7,6 +7,7 @@ import StatsSection from '../components/sections/StatsSection'
 import ServicesSection from '../components/sections/ServicesSection'
 import TransformingIdeasSection from '../components/sections/TransformingIdeasSection'
 import TrustedCustomersSection from '../components/sections/TrustedCustomersSection'
+import GetInTouch from '../components/GetInTouch'
 
 const HomePage = () => {
   useEffect(() => {
@@ -21,8 +22,7 @@ const HomePage = () => {
       <TrustedCustomersSection />
       <IndustriesSpecializeSection />
       <BlogSection />
-      <AboutSection />
-      <StatsSection />
+      <GetInTouch />
     </>
   )
 }

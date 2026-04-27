@@ -1,38 +1,35 @@
 import BlogCard from '../BlogCard'
 
 const BlogSection = () => {
-  const industries = [
+  const blogs = [
     {
-      id: 1,
-      image: 'assets/img/industries/ind-1.svg',
-      title: 'Real Estate',
-      category: 'Real Estate',
-      date: 'Aug 15, 2024',
-      description: 'Discover the latest trends and insights in the real estate industry with our expert analysis and market updates.',
+      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786",
+      category: "UI/UX Designer",
+      date: "July 4, 2025",
+      title: "Yourself Everyone else is Already Marketing Team",
+      description: '',
       link: '#',
-      delay: 100,
+      delay: 100
     },
     {
-      id: 2,
-      image: 'assets/img/industries/ind-2.svg',
-      title: 'Restaurants',
-      category: 'Real Estate',
-      date: 'Aug 15, 2024',
-      description: 'Discover the latest trends and insights in the real estate industry with our expert analysis and market updates.',
+      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786",
+      category: "UI/UX Designer",
+      date: "July 4, 2025",
+      title: "Yourself Everyone else is Already Marketing Team",
+      description: '',
       link: '#',
-      delay: 200,
+      delay: 200
     },
     {
-      id: 3,
-      image: 'assets/img/industries/ind-3.svg',
-      title: 'FinTech',
-      category: 'Real Estate',
-      date: 'Aug 15, 2024',
-      description: 'Discover the latest trends and insights in the real estate industry with our expert analysis and market updates.',
+      image: "https://images.unsplash.com/photo-1556761175-4b46a572b786",
+      category: "UI/UX Designer",
+      date: "July 4, 2025",
+      title: "Yourself Everyone else is Already Marketing Team",
+      description: '',
       link: '#',
-      delay: 300,
-    }   
-  ]
+      delay: 300
+    }
+  ];
 
   return (
     <section id="blog-section" className="ivt-blog-section section">
@@ -40,10 +37,15 @@ const BlogSection = () => {
         <div className="section-title text-center mb-0 pb-5">
           <h2>Watch Our Latest Blog</h2>
         </div>
-        <div className="row gy-4">
-          {industries.map((service, index) => (
-            <BlogCard key={index} image={service.image} title={service.title} category={service.category}  date={service.date}  description={service.description} link={service.link} delay={service.delay} />
+        <div className="row">
+          {blogs.map((blog, index) => (
+            <BlogCard key={index} image={blog.image} title={blog.title} category={blog.category} date={blog.date} description={blog.description} link={blog.link} delay={blog.delay} />
           ))}
+          <div className="col-md-12 text-center mt-4 text-center">
+            <a href="/your-link" className="btn-get-started yellow mx-auto px-5">
+              <span>View All</span>
+            </a>
+          </div>
         </div>
       </div>
     </section>

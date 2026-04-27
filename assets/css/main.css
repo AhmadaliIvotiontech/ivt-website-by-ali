@@ -1036,6 +1036,7 @@ section,
   padding: 12px 30px;
   border-radius: 100px;
   transition: 0.5s;
+  border: none;
   box-shadow: 2px 4px 15px 0px rgba(255, 255, 255, 0.25);
 }
 
@@ -2142,4 +2143,127 @@ section,
 --------------------------------------------------------------*/
 .banner-content-titles {
   max-width: 550px;
+}
+
+/*--------------------------------------------------------------
+# New CSS start for 23rd april 2026
+--------------------------------------------------------------*/
+
+.blog-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  transition: transform 0.3s;
+  border-bottom: 1.5px solid #F1F5F9
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+}
+
+.blog-img-wrapper {
+  position: relative;
+}
+
+.blog-img-wrapper img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+}
+
+.blog-content {
+  text-align: left;
+  background: #FFFFFF;
+  min-height: 200px;
+}
+
+.blog-title {
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.btn-arrow {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Themes */
+.btn-arrow {
+  background: #1e2a78;
+  color: #FFFFFF;
+}
+
+.btn-arrow:hover {
+  background: #ff7a00;
+  color: #FFFFFF;
+}
+
+/* Title underline */
+.underline {
+  width: 60px;
+  height: 4px;
+  background: #ff7a00;
+  border-radius: 2px;
+}
+
+.text-muted-new {
+  color: #5E708D !important;
+}
+
+.contact-left {
+  background: #FFFFFF80;
+  border: 1.85px solid #DCE1E7;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contact-form {
+  background: #FFFFFF80;
+  border: 1.85px solid #DCE1E7;
+  border-radius: 20px;
+}
+
+.form-control {
+  border-radius: 10px;
+  height: 45px;
+}
+
+textarea.form-control {
+  height: auto;
+}
+
+.btn-send {
+  background: #ff7a00;
+  color: #fff;
+  border-radius: 30px;
+  border: none;
+  font-weight: 500;
+}
+
+.btn-send:hover {
+  background: #e66a00;
+}
+
+.get_in_touch_section {
+  background: url("../img/getInTouchBG.png") center center no-repeat;
+  background-size: cover;
+}
+
+.color-groom {
+  color: #333333 !important;
 }
